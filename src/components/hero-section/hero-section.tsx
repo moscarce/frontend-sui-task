@@ -25,7 +25,7 @@ const HeroSection = () => {
         },
     ]
     return (
-        <div className='bg-radial from-[#082844] from-40% to-[#051127] flex flex-col items-center gap-16 py-16 px-8 relative'>
+        <div className='bg-radial from-[#082844] from-40% to-[#051127] flex flex-col items-center gap-16 py-16 px-8 max-md:px-5 w-full relative rounded-bl-[100px]'>
             <Logo />
             <Image
                 className="mb-24"
@@ -34,7 +34,7 @@ const HeroSection = () => {
                 width={500}
                 height={500}
             />
-            <div className='flex bg-white absolute bottom-[-10%] mx-56 rounded-2xl shadow-2xl justify-arround px-20 gap-20 py-5'>
+            <div className='flex bg-white lg:absolute bottom-[-10%] mx-auto max-lg:flex-col rounded-2xl shadow-2xl justify-arround px-20 gap-20 py-5 max-md:px-5 max-md:gap-5'>
                 {
                     infos.map((info, index) => (
                         <DetailWithIcon icon={info.icon} title={info.title} description={info.description} key={index} />

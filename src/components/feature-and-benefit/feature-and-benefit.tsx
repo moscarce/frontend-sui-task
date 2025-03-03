@@ -3,8 +3,8 @@ import HeaderAndList from '../reusables/header-and-list'
 
 const FeatureAndBenefit = () => {
     return (
-        <div className='grid grid-cols-2 mb-16'>
-            <div className=" py-16 pl-44 bg-[#DBE9FE]">
+        <div className='grid lg:grid-cols-2 mb-32'>
+            <div className=" py-16 lg:pl-44 md:pl-20 px-5  bg-[#DBE9FE]">
                 <HeaderAndList
                     title={'Features of the Hacker House'}
                     listItems={[
@@ -16,7 +16,7 @@ const FeatureAndBenefit = () => {
                         'Solution Demonstrations',
                     ]} />
             </div>
-            <div className=" py-16 pr-44 bg-[#FBFCFF]  pl-16">
+            <div className=" py-16 lg:pr-44 md:px-20 px-5 bg-[#FBFCFF] ">
                 <HeaderAndList
                     title={'Benefits for Participating Teams'}
                     listItems={[

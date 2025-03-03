@@ -7,18 +7,18 @@ import { FiBox } from 'react-icons/fi';
 
 const AboutSection = () => {
     return (
-        <div className='my-32 px-52'>
-            <div className='grid grid-cols-2'>
+        <div className='my-32 lg:px-36 xl:px-52 md:px-20 max-md:px-5'>
+            <div className='lg:grid lg:grid-cols-2 gap-8'>
 
-                <div className='relative'>
+                <div className='relative max-lg:flex  justify-center items-center'>
 
                     <Image
-                        className="mb-24 bg-[#0A1739] object-contain absolute top-0 left-0 bottom-0 right-0"
+                        className="mb-24 bg-[#0A1739] object-contain lg:absolute top-0 left-0 bottom-0 right-0"
                         src="/about-sui-image.svg"
                         alt="Sui Logo"
                         width={100}
                         height={0}
-                        style={{ width: "400px", height: "100%", borderRadius: "100%", }}
+                        style={{ width: "400px", height: "400px", borderRadius: "100%", }}
                     />
                     <p className='absolute bg-[#ECECEC] p-1 px-3 rounded-[4px] top-[10%] font-semibold flex items-center gap-2'><span><FiBox /></span><span>Web 3.0</span></p>
                     <p className='absolute bg-[#ECECEC] p-1 px-3 rounded-[4px] bottom-[30%] right-[30%] font-semibold flex items-center gap-2'><span><FiBox /></span><span>Blockchain Tech</span></p>

@@ -5,7 +5,7 @@ import Image from "next/image";
 const Logo = () => {
     return (
         <div>
-            <div className='flex gap-4 justify-center '>
+            <div className='flex gap-4'>
                 <Image
                     src="/semicolon-logo.svg"
                     alt="Sui Logo"
