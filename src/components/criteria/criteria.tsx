@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Criteria = () => {
     return (
-        <div className="mx-auto mb-20 max-w-5xl md:p-10 max-md:p-5">
+        <div className="mx-auto mb-20  max-sm:mb-10 max-w-5xl md:p-10 max-md:p-5">
             <div className="flex flex-col items-center justify-between lg:flex-row  rounded-2xl bg-[#0A1739] p-4 lg:pl-10">
                 <div className="md:w-1/2 md:pr-6">
                     <Header
@@ -28,7 +28,7 @@ const Criteria = () => {
                         alt="Eligibility Criteria"
                         width={500}
                         height={500}
-                        className="object-contain lg:absolute lg:z-10 lg:right-[-500px] lg:bottom-0 lg:left-0 lg:top-[-200px]"
+                        className="object-cover lg:absolute lg:z-10 lg:right-[-500px] lg:bottom-0 lg:left-0 lg:top-[-200px]"
                     />
                 </div>
             </div>

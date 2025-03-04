@@ -25,15 +25,16 @@ const HeroSection = () => {
         },
     ]
     return (
-        <div className='bg-radial from-[#082844] from-40% to-[#051127] flex flex-col items-center gap-16 py-16 px-8 max-md:px-5 w-full relative rounded-bl-[100px]'>
+        <div className='bg-radial mb-24 from-[#082844] from-40% to-[#051127] flex flex-col items-center gap-16 py-16 px-8 max-md:px-5 w-full relative rounded-bl-[100px]'>
             <Logo />
             <Image
-                className="mb-24"
+                className=""
                 src="/HackerHouseNew.svg"
                 alt="Sui Logo"
                 width={500}
                 height={500}
             />
+            <p className='text-[#6FE4E7] italic font-semibold text-2xl mb-5'>Road to Sui Overflow</p>
             <div className='flex bg-white lg:absolute bottom-[-10%] mx-auto max-lg:flex-col rounded-2xl shadow-2xl justify-arround px-20 gap-20 py-5 max-md:px-5 max-md:gap-5'>
                 {
                     infos.map((info, index) => (

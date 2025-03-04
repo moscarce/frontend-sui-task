@@ -3,7 +3,7 @@ import HeaderAndList from '../reusables/header-and-list'
 
 const FeatureAndBenefit = () => {
     return (
-        <div className='grid lg:grid-cols-2 mb-32'>
+        <div className='grid lg:grid-cols-2 mb-32  max-sm:mb-10'>
             <div className=" py-16 lg:pl-44 md:pl-20 px-5  bg-[#DBE9FE]">
                 <HeaderAndList
                     title={'Features of the Hacker House'}

@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import Header from '../reusables/header'
 import HeaderAndList from '../reusables/header-and-list'
+import { FaCheckCircle } from 'react-icons/fa'
+import { HiBadgeCheck } from 'react-icons/hi'
 
 const Requirements = () => {
     return (
@@ -13,6 +15,7 @@ const Requirements = () => {
                     width={200}
                     height={200}
                     style={{ borderRadius: "20px", width: '500px', height: '300px' }}
+                    className='object-cover'
 
                 />
             </div>
@@ -26,7 +29,8 @@ const Requirements = () => {
                         'TIntellectual property created by teams during the hacker house will be retained by those teams.',
                     ]}
                     headerClassName='text-center text-3xl font-bold text-[#2463EB]'
-                    icon={<div className='text-white italic bg-[#05B6D3] rounded-4xl px-1 font-bold'>✓</div>}
+                    icon={<HiBadgeCheck size={25} color='#05B6D3' />}
+                // icon={<div className='text-white italic bg-[#05B6D3] rounded-4xl px-1 font-bold'>✓</div>}
                 />
 
             </div>

@@ -11,8 +11,8 @@ const DetailWithIcon = ({ icon, title, description }: Props) => {
         <div className='flex gap-4'>
             <div>{icon}</div>
             <div>
-                <h2 className={'text-lg font-bold'}>{title}</h2>
-                <p className='text-lg font-bold'>{description}</p>
+                <h2 className={'text-lg max-sm:text-md font-bold'}>{title}</h2>
+                <p className='text-lg max-sm:text-md font-bold'>{description}</p>
             </div>
         </div>
     )
