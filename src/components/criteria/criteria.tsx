@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Criteria = () => {
     return (
-        <div className="mx-auto mb-20  max-sm:mb-10 max-w-5xl md:p-10 max-md:p-5">
-            <div className="flex flex-col items-center justify-between lg:flex-row  rounded-2xl bg-[#0A1739] p-4 lg:pl-10">
+        <div className="mb-10  max-sm:mb-10 md:p-10 max-md:p-5 xl:mx-52">
+            <div className="flex flex-col items-center justify-between lg:py-10 lg:flex-row  rounded-2xl bg-[#0A1739] p-4 lg:pl-16 lg:pr-12">
                 <div className="md:w-1/2 md:pr-6">
                     <Header
                         text="Eligibility Criteria"
@@ -20,15 +20,13 @@ const Criteria = () => {
                         developers, designers, entrepreneurs, and blockchain enthusiasts
                     </h2>
                 </div>
-
-                {/* Right Image */}
-                <div className="mt-8 flex justify-center lg:relative md:w-1/2 lg:-mr-12">
+                <div className="mt-8 flex justify-center lg:relative md:w-1/2 lg:-mr-28">
                     <Image
                         src="/eligibility-image.svg"
                         alt="Eligibility Criteria"
                         width={500}
                         height={500}
-                        className="object-cover lg:absolute lg:z-10 lg:right-[-500px] lg:bottom-0 lg:left-0 lg:top-[-200px]"
+                        className="object-cover lg:absolute lg:z-10 lg:right-[-500px] lg:bottom-0 lg:left-0 lg:top-[-220px]"
                     />
                 </div>
             </div>

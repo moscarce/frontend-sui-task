@@ -8,11 +8,11 @@ interface Props {
 
 const DetailWithIcon = ({ icon, title, description }: Props) => {
     return (
-        <div className='flex gap-4'>
+        <div className='flex gap-4 items-center'>
             <div>{icon}</div>
             <div>
-                <h2 className={'text-lg max-sm:text-md font-bold'}>{title}</h2>
-                <p className='text-lg max-sm:text-md font-bold'>{description}</p>
+                <h2 className={'text-lg max-sm:text-sm font-bold'}>{title}</h2>
+                <p className='text-lg max-sm:text-sm font-bold'>{description}</p>
             </div>
         </div>
     )

@@ -19,7 +19,7 @@ const Requirements = () => {
 
                 />
             </div>
-            <div className="">
+            <div className="lg:mr-12">
                 <HeaderAndList
                     title='Participation Requirements'
                     listItems={[
