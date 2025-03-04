@@ -13,7 +13,7 @@ const AboutSection = () => {
                 <div className='relative max-lg:flex  justify-center items-center'>
 
                     <Image
-                        className="mb-24 bg-[#0A1739] object-contain lg:absolute top-0 left-0 bottom-0 right-0"
+                        className="mb-24 bg-[#0A1739] object-cover lg:absolute top-0 left-0 bottom-0 right-0"
                         src="/about-sui-image.svg"
                         alt="Sui Logo"
                         width={100}

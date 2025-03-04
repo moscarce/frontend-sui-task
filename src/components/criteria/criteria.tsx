@@ -4,9 +4,8 @@ import Image from "next/image";
 
 const Criteria = () => {
     return (
-        <div className="mx-auto mb-20 max-w-5xl rounded-2xl bg-[#0A1739] p-8 md:p-10">
-            <div className="flex flex-col items-center justify-between md:flex-row">
-                {/* Left Content */}
+        <div className="mx-auto mb-20 max-w-5xl md:p-10 max-md:p-5">
+            <div className="flex flex-col items-center justify-between lg:flex-row  rounded-2xl bg-[#0A1739] p-4 lg:pl-10">
                 <div className="md:w-1/2 md:pr-6">
                     <Header
                         text="Eligibility Criteria"
@@ -23,13 +22,13 @@ const Criteria = () => {
                 </div>
 
                 {/* Right Image */}
-                <div className="mt-8 flex justify-center md:mt-0 md:w-1/2 md:justify-end">
+                <div className="mt-8 flex justify-center lg:relative md:w-1/2 lg:-mr-12">
                     <Image
                         src="/eligibility-image.svg"
                         alt="Eligibility Criteria"
-                        width={400}
-                        height={300}
-                        className="h-auto w-auto object-contain"
+                        width={500}
+                        height={500}
+                        className="object-contain lg:absolute lg:z-10 lg:right-[-500px] lg:bottom-0 lg:left-0 lg:top-[-200px]"
                     />
                 </div>
             </div>
