@@ -19,8 +19,8 @@ const HeaderAndList = ({ title, listItems, className, icon, headerClassName }: P
             </div>
             <div>
                 {listItems.map((item, index) => (
-                    <div key={index} className='mt-2 flex gap-2 items-center pl-1'>
-                        <div>
+                    <div key={index} className='mt-2 flex gap-2 items-center max-md:items-start pl-1'>
+                        <div className='max-md:pt-2'>
                             {icon ? icon : < MdCircle size={6} color='#2463EB' />}
                         </div>
                         <p>{item}</p>
