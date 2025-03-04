@@ -35,7 +35,7 @@ const HeroSection = () => {
                 height={500}
             />
             <p className='text-[#6FE4E7] italic font-semibold text-2xl mb-5'>Road to Sui Overflow</p>
-            <div className=' flex max-md:flex-col max-md:-mb-48 bg-white shadow-2xl py-5 px-20 justify-between gap-4 rounded-2xl -mb-28'>
+            <div className=' flex max-md:flex-col max-md:-mb-48 bg-white shadow-2xl py-5 px-20 justify-between gap-4 rounded-2xl -mb-28 max-sm:px-5'>
                 {
                     infos.map((info, index) => (
                         <DetailWithIcon icon={info.icon} title={info.title} description={info.description} key={index} />
